@@ -21,7 +21,7 @@ if (!fs.existsSync(uploadDir)) {
 }
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Update with your frontend URL
+  origin: 'https://frontend-test-r6l0.onrender.com', // Update with your frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
 }));
